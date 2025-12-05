@@ -1,124 +1,90 @@
-🛍️ E-Commerce Sales Analysis Dashboard
+# 🛍️ E-Commerce Sales Analysis Dashboard
 
-This repository contains the dashboard files and documentation for an interactive E-Commerce Sales Analysis Dashboard built to analyze and visualize key business KPIs. It provides a comprehensive view of sales performance, profitability, customer segments, and geographical distribution.
+This repository contains an interactive E-Commerce Sales Analysis Dashboard built to analyze and visualize key KPIs for business performance. It provides a complete overview of sales trends, profitability, category performance, and geographical insights.
 
-✨ Overview
+---
 
-The dashboard enables business managers and data analysts to:
+## ✨ Overview
 
-Monitor overall business performance
+The dashboard helps business users and analysts to:
 
-Track sales and profit trends
+- Monitor overall performance indicators  
+- Track sales and profit trends  
+- Identify high-performing product categories  
+- Understand customer and region-wise performance  
+- Explore YoY growth across key metrics  
 
-Identify top-performing product categories
+---
 
-Understand customer and regional behavior
+## 📊 Key Metrics & Insights
 
-Explore YoY growth and category contributions
+The dashboard highlights major KPIs along with **Year-over-Year (YoY) Growth**:
 
-It offers a complete analytical picture of the business through interactive visualizations.
+| Metric | Value (Current Period) | YoY Growth | Insight |
+|--------|-------------------------|------------|----------|
+| **Sales** | **$22,97,200.86** | **20.62%** | Strong revenue growth |
+| **Profit** | **$2,86,397.02** | **14.41%** | Healthy profit performance |
+| **Quantity** | **37,873** | **27.45%** | High increase in units sold |
+| **Orders** | **9,994** | **28.64%** | Strong customer engagement |
+| **Profit Margin** | **12%** | **-5.15%** | Slight decline; needs review |
 
-📊 Key Metrics & Insights
+---
 
-The dashboard highlights core KPIs with Year-over-Year (YoY) Growth:
+## 🚀 Dashboard Features
 
-Metric	Value (Current Period)	YoY Growth	Insight
-Sales	$22,97,200.86	20.62%	Strong revenue growth.
-Profit	$2,86,397.02	14.41%	Healthy profit increase.
-Quantity	37,873	27.45%	Significant rise in volume.
-Orders	9,994	28.64%	High customer activity.
-Profit Margin	12%	-5.15%	Margin slightly declined — indicates cost or pricing concerns.
-🚀 Dashboard Features
-1. Sales & Profit Trend Analysis
+### **1. Sales & Profit Trend Analysis**
+- Line + bar charts  
+- Visualizes monthly performance patterns and peak seasons  
 
-Visualization: Line + Bar charts
+### **2. Top Categories Performance**
+- Horizontal bar chart  
+- Highlights highest-selling and most profitable categories  
 
-Purpose: Identify monthly trends, seasonal peaks (Sept, Nov, Dec), and evaluate alignment between sales and profit.
+### **3. Geographical Sales Distribution**
+- U.S. map visualization  
+- Displays category-wise state-level sales contribution  
 
-2. Top Categories Performance
+### **4. Category Wise Profitability**
+- Bar chart visual  
+- Shows profit contribution across categories  
 
-Visualization: Horizontal bar chart
+### **5. Overall Category Contribution**
+- Donut chart  
+- Category sales share:  
+  - Office Supplies: **36%**  
+  - Technology: **33%**  
+  - Furniture: **31%**
 
-Insight: Phones and Chairs dominate sales performance.
+---
 
-3. Geographical Distribution
+## ⚙️ Filters & Interactivity
 
-Visualization: U.S. map showing Category-wise Sales by state
+Interactive slicers included:
 
-Purpose: Identify high- and low-performing regions for targeted interventions.
+- **Year:** 2011–2014  
+- **Segment:** Consumer, Corporate, Home Office  
+- **Region:** Central, East, South, West  
 
-4. Category Wise Profitability
+These filters allow drill-down analysis for detailed insights.
 
-Visualization: Bar chart
+---
 
-Insight: Technology contributes the highest profit.
+## 🛠️ Technology Stack
 
-5. Overall Category Contribution
+This dashboard is built entirely using **Microsoft Excel**.
 
-Visualization: Donut chart
+- Advanced charting  
+- Conditional formatting  
+- Power Pivot / Power Query (optional)  
+- Fully interactive within Excel  
 
-Insight:
+**Benefit:**  
+Only Excel (2016 or newer) is required to use and explore the dashboard.
 
-Office Supplies: 36%
+---
 
-Technology: 33%
+## 💾 How to Use / Access
 
-Furniture: 31%
+### **1. Clone or Download**
+Download or clone the repository and locate:
 
-⚙️ Filters & Interactivity
-
-The dashboard supports dynamic exploration with built-in Excel slicers:
-
-Year: 2011, 2012, 2013, 2014
-
-Segment: Consumer, Corporate, Home Office
-
-Region: Central, East, South, West
-
-These interactive filters allow users to drill down into specific data segments.
-
-🛠️ Technology Stack 
-
-This dashboard was built entirely using Microsoft Excel.
-
-Primary Tool: Microsoft Excel
-(utilizing advanced charting, conditional formatting, and Power Pivot/Power Query for data handling)
-
-Benefits:
-
-Highly accessible
-
-No additional software required
-
-Fully interactive within Excel
-
-💾 How to Use / Access 
-1. Clone or Download
-
-Clone this repository or download the dashboard file:
-
-[Dashboard_File_Name].xlsx
-
-2. Open
-
-Open the file in Microsoft Excel (2016 or newer) to ensure full compatibility with slicers, maps, and charts.
-
-3. Interact
-
-Use the built-in slicers and filters:
-
-Year
-
-Segment
-
-Region
-
-These controls allow real-time analysis across different subsets of the data.
-
-📁 Project Structure
-📦 E-Commerce-Sales-Dashboard
-├── data/
-├── assets/
-├── dashboard/
-├── README.md
-└── [Dashboard_File_Name].xlsx
